@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     const completion = await openai.chat.completions.create({
         messages: [{
             role: "system",
-            content: 'Please generate 2 names with first and last name for a pet based on the input' + message
+            content: 'Please generate 4 names with first and last name for a pet based on the input' + message
         }],
         model: "gpt-3.5-turbo",
     })

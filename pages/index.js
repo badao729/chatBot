@@ -42,7 +42,7 @@ function Profile() {
 
   return (
     <div>
-      <h1>Please enter an animal name</h1><br />
+      <h1>Please enter one animal name</h1><br />
       <input type="text" value={userInput}
         style={{ width: '600px', border: "1px solid black", margin: "20px", padding: "20px", fontSize: "20px" }}
         onChange={e => setUserInput(e.target.value)} />
