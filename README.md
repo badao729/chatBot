@@ -4,9 +4,11 @@
 
 ## Overview
 
-This is a **Next.js** project deployed on **Vercel**. The application allows users to generate a name and a photo for an animal by entering the animal's name (e.g., "dog" or "cat"). This web application is connected to the **OpenAI API**.
-I am using this project to test the OpenAI API. 
-This is a basic structure, and you can easily change the API commands to make the OpenAI API perform other tasks.
+- This is a **Next.js** project deployed on **Vercel**.
+- This web application is connected to the **OpenAI API**.
+- The application allows users to generate a name and a photo for an animal by entering the animal's name (e.g., "dog" or "cat"). 
+- I am using this project to test the OpenAI API. 
+- This is a basic structure, and you can easily change the API commands to make the OpenAI API perform other tasks.
 
 ## Features
 
@@ -24,7 +26,7 @@ This is a basic structure, and you can easily change the API commands to make th
 1. Visit the [Animal Name Generator](https://chat-bot-eight-rust.vercel.app/).
 2. Enter the name of an animal (e.g., "dog" or "cat") in the input field.
 3. Click the "Generate" button.
-4. The application will display a generated name and photo for the entered animal.
+4. The application will display several generated names and a photo for the entered animal.
 
 
 ## Deployment
